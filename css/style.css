@@ -1,0 +1,57 @@
+body {
+  background-color: #F7F7F7;
+  font-family: "SF Pro Rounded";
+  font-size: 30px;
+}
+
+.container {
+  margin: auto;
+  padding: 30px;
+  width: 90%;
+}
+
+.header {
+  background-color: #C8E2FF;
+  padding: 10%;
+}
+
+.service {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  margin: 5% auto;
+  width: 90%;
+  padding: 3%
+}
+
+.route {
+  display: inline-block;
+  width: 30%;
+}
+
+.line {
+  width: 20%;
+}
+
+.destination {
+  width: 40%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.listHeader {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.serviceUnderline {
+  font-size: 33px;
+  line-height: 50px;
+  border-bottom: 3px solid #C8E2FF;
+}
