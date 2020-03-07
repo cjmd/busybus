@@ -8,77 +8,101 @@
   </head>
   <body>
     <div class="header">
-      <h1>Washington & State <br> Bus Routes</h1>
+      <div class="statusBar">
+        <img src="images/statusbar.png" width="100%">
+      </div>
+      <div class="backBtn">
+        <img src="images/back.png" width="35px">
+      </div>
+      <div class="pageTitle">
+        <h1>Washington & State</h1>
+      </div>
     </div>
+    <section class="map">
+    </section>
     <section class="container">
-      <div class="service eastbound">
-        <span class="serviceUnderline">Eastbound</span>
-        <br>
+      <div class="service 60">
         <div class="route line">
           <ul>
-            <li class="listHeader">Line</li>
             <li>60</li>
+          </ul>
+        </div>
+        <div class="route destination">
+          <ul>
+            <li>eastbound for <span class="spanUnderline">Randolph/Harbor Dr</span></li>
+          </ul>
+        </div>
+        <div class="route frequency">
+          <ul>
+            <li>Every 20 minutes</li>
+          </ul>
+        </div>
+      </div>
+      <div class="service east124">
+        <div class="route line">
+          <ul>
             <li>124</li>
           </ul>
         </div>
         <div class="route destination">
           <ul>
-            <li class="listHeader">Destination</li>
-            <li>Randolph/Harbor Dr</li>
-            <li>Navy Pier</li>
+            <li>eastbound for <span class="spanUnderline">Navy Pier</span></li>
           </ul>
         </div>
         <div class="route frequency">
           <ul>
-            <li class="listHeader">Frequency</li>
-            <li>Every 20 minutes</li>
             <li>Every 10 minutes</li>
           </ul>
         </div>
       </div>
-      <div class="service northbound">
-        <span class="serviceUnderline">Northbound</span>
-        <br>
+      <div class="service 151">
         <div class="route line">
           <ul>
-            <li class="listHeader">Line</li>
             <li>151</li>
           </ul>
         </div>
         <div class="route destination">
           <ul>
-            <li class="listHeader">Destination</li>
-            <li>Devon/Clark</li>
+            <li>northbound for <span class="spanUnderline">Devon/Clark</span></li>
           </ul>
         </div>
         <div class="route frequency">
           <ul>
-            <li class="listHeader">Frequency</li>
             <li>Every 16 minutes</li>
           </ul>
         </div>
       </div>
-      <div class="service southbound">
-        <span class="serviceUnderline">Southbound</span>
+      <div class="service J14">
         <br>
         <div class="route line">
           <ul>
-            <li class="listHeader">Line</li>
             <li>J14</li>
+          </ul>
+        </div>
+        <div class="route destination">
+          <ul>
+            <li>southbound for <span class="spanUnderline">103rd/Stony Island</span></li>
+          </ul>
+        </div>
+        <div class="route frequency">
+          <ul>
+            <li>Every 15 minutes</li>
+          </ul>
+        </div>
+      </div>
+      <div class="service south124">
+        <div class="route line">
+          <ul>
             <li>124</li>
           </ul>
         </div>
         <div class="route destination">
           <ul>
-            <li class="listHeader">Destination</li>
-            <li>103rd/Stony Island</li>
-            <li>Navy Pier</li>
+            <li>southbound for <span class="spanUnderline">Navy Pier</span></li>
           </ul>
         </div>
         <div class="route frequency">
           <ul>
-            <li class="listHeader">Frequency</li>
-            <li>Every 15 minutes</li>
             <li>Every 10 minutes</li>
           </ul>
         </div>
@@ -88,19 +112,16 @@
         <br>
         <div class="route line">
           <ul>
-            <li class="listHeader">Line</li>
             <li>6x</li>
           </ul>
         </div>
         <div class="route destination">
           <ul>
-            <li class="listHeader">Destination</li>
             <li>Jackson Park Express</li>
           </ul>
         </div>
         <div class="route frequency">
           <ul>
-            <li class="listHeader">Frequency</li>
             <li>N/A</li>
           </ul>
         </div>
@@ -110,7 +131,6 @@
         <br>
         <div class="route line">
           <ul>
-            <li class="listHeader">Line</li>
             <li>4</li>
             <li>20</li>
             <li>157</li>
@@ -118,7 +138,6 @@
         </div>
         <div class="route destination">
           <ul>
-            <li class="listHeader">Destination</li>
             <li>Cottage Grove</li>
             <li>Madison</li>
             <li>Streeterville/Taylor</li>
@@ -126,7 +145,6 @@
         </div>
         <div class="route frequency">
           <ul>
-            <li class="listHeader">Frequency</li>
             <li>Resumes 12:10am</li>
             <li>Resumes 12:10am</li>
             <li>Resumes 6:00am</li>
