@@ -2,34 +2,32 @@ body {
   background-color: #F7F7F7;
   /* font-family: "SF Pro Rounded"; */
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 30px;
+  font-size: 12px;
+  line-height: 16px;
 }
 
-.statusBar {
+header {
   background-color: #C8E2FF;
-  padding: 5px 15px;
+    padding: 3px 5px;
 }
 
 .backBtn {
-  background-color: #C8E2FF;
   position: absolute;
-  padding: 30px;
-}
-
-.header {
-  margin-top: 0;
-  background-color: #C8E2FF;
+  /* padding: 30px; */
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 .pageTitle {
-    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .map {
   background-image: url('../images/map.png');
   background-size: cover;
   width: 100%;
-  height: 750px;
+  height: 326px;
 }
 
 .container {
@@ -42,12 +40,11 @@ body {
   border-radius: 10px;
   margin: 2% auto;
   width: 90%;
-  padding: 4%
+  padding: 15px;
 }
 
 .route {
   display: inline-block;
-  width: 30%;
 }
 
 .line {
@@ -56,15 +53,20 @@ body {
 }
 
 .destination {
-  width: 60%;
+  width: 43%;
 }
 
 .frequency {
-  width: 28%;
+  width: 45%;
 }
 
 ul {
   list-style-type: none;
+  vertical-align: middle;
+}
+
+li {
+  vertical-align: middle;
 }
 
 .listHeader {
@@ -72,7 +74,7 @@ ul {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
@@ -82,4 +84,8 @@ h1 {
   font-weight: bolder;
   /* line-height: 50px; */
   border-bottom: 3px solid #C8E2FF;
+}
+
+b {
+  font-weight: bold;
 }

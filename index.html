@@ -5,175 +5,71 @@
     <title>Washington & State Bus Routes</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="header">
+    <header>
       <div class="statusBar">
         <img src="images/statusbar.png" width="100%">
       </div>
       <div class="backBtn">
-        <img src="images/back.png" width="35px">
+        <img src="images/Back.png" width="12px">
       </div>
       <div class="pageTitle">
         <h1>Washington & State</h1>
       </div>
-    </div>
+    </header>
     <section class="map">
     </section>
     <section class="container">
-      <div class="service 60">
-        <div class="route line">
-          <ul>
-            <li>60</li>
-          </ul>
-        </div>
-        <div class="route destination">
-          <ul>
-            <li>eastbound for <span class="spanUnderline">Randolph/Harbor Dr</span></li>
-          </ul>
-        </div>
-        <div class="route frequency">
-          <ul>
-            <li>Every 20 minutes</li>
-          </ul>
-        </div>
-      </div>
-      <div class="service east124">
-        <div class="route line">
-          <ul>
-            <li>124</li>
-          </ul>
-        </div>
-        <div class="route destination">
-          <ul>
-            <li>eastbound for <span class="spanUnderline">Navy Pier</span></li>
-          </ul>
-        </div>
-        <div class="route frequency">
-          <ul>
-            <li>Every 10 minutes</li>
-          </ul>
-        </div>
-      </div>
-      <div class="service 151">
-        <div class="route line">
-          <ul>
-            <li>151</li>
-          </ul>
-        </div>
-        <div class="route destination">
-          <ul>
-            <li>northbound for <span class="spanUnderline">Devon/Clark</span></li>
-          </ul>
-        </div>
-        <div class="route frequency">
-          <ul>
-            <li>Every 16 minutes</li>
-          </ul>
-        </div>
-      </div>
-      <div class="service J14">
-        <div class="route line">
-          <ul>
-            <li>J14</li>
-          </ul>
-        </div>
-        <div class="route destination">
-          <ul>
-            <li>southbound for <span class="spanUnderline">103rd/Stony Island</span></li>
-          </ul>
-        </div>
-        <div class="route frequency">
-          <ul>
-            <li>Every 15 minutes</li>
-          </ul>
-        </div>
-      </div>
-      <div class="service south124">
-        <div class="route line">
-          <ul>
-            <li>124</li>
-          </ul>
-        </div>
-        <div class="route destination">
-          <ul>
-            <li>southbound for <span class="spanUnderline">Navy Pier</span></li>
-          </ul>
-        </div>
-        <div class="route frequency">
-          <ul>
-            <li>Every 10 minutes</li>
-          </ul>
-        </div>
-      </div>
-      <div class="service 6x">
-        <div class="route line">
-          <ul>
-            <li>6x</li>
-          </ul>
-        </div>
-        <div class="route destination">
-          <ul>
-            <li><span class="spanUnderline">Jackson Park Express</span> is rerouted</li>
-          </ul>
-        </div>
-        <div class="route frequency">
-          <ul>
-            <li>N/A</li>
-          </ul>
-        </div>
-      </div>
-      <div class="service 4">
-        <div class="route line">
-          <ul>
-            <li>4</li>
-          </ul>
-        </div>
-        <div class="route destination">
-          <ul>
-            <li><span class="spanUnderline">Cottage Grove</span> is out of service</li>
-          </ul>
-        </div>
-        <div class="route frequency">
-          <ul>
-            <li>Resumes 12:10am</li>
-          </ul>
-        </div>
-      </div>
-      <div class="service 20">
-        <div class="route line">
-          <ul>
-            <li>20</li>
-          </ul>
-        </div>
-        <div class="route destination">
-          <ul>
-            <li><span class="spanUnderline">Madison</span> is out of service</li>
-          </ul>
-        </div>
-        <div class="route frequency">
-          <ul>
-            <li>Resumes 12:10am</li>
-          </ul>
-        </div>
-      </div>
-      <div class="service 6x">
-        <div class="route line">
-          <ul>
-            <li>157</li>
-          </ul>
-        </div>
-        <div class="route destination">
-          <ul>
-            <li><span class="spanUnderline">Streeterville/Taylor</span> is out of service</li>
-          </ul>
-        </div>
-        <div class="route frequency">
-          <ul>
-            <li>Resumes 6:00am</li>
-          </ul>
-        </div>
-      </div>
+      <ul class="service 60">
+        <li class="route line">60</li>
+        <li class="route destination">eastbound for <br><span class="spanUnderline">Randolph/Harbor Dr</span></li>
+        <li class="route frequency"><b>arriving now</b> at 9:42am<br>
+          next bus at 10:02am</li>
+      </ul>
+      <ul class="service east124">
+        <li class="route line">124</li>
+        <li class="route destination">eastbound for <br><span class="spanUnderline">Navy Pier</span></li>
+        <li class="route frequency">arriving at <b>9:57am</b><br>next bus at 10:07am</li>
+      </ul>
+      <ul class="service 151">
+        <li class="route line">151</li>
+        <li class="route destination">northbound for <br><span class="spanUnderline">Devon/Clark</span></li>
+        <li class="route frequency">arriving at <b>10:15am</b> <br> next bus at 10:31am</li>
+      </ul>
+      <ul class="service J14">
+        <li class="route line">J14</li>
+        <li class="route destination">southbound for <br><span class="spanUnderline">103rd/Stony Island</span></li>
+        <li class="route frequency">arriving at <b>10:20am</b> <br> next bus at 10:35am</li>
+      </ul>
+      <ul class="service south124">
+        <li class="route line">124</li>
+        <li class="route destination">southbound for <br><span class="spanUnderline">Navy Pier</span></li>
+        <li class="route frequency">arriving at <b>10:40am</b> <br> next bus at 10:55am</li>
+      </ul>
+      <ul class="service 6x">
+        <li class="route line">6x</li>
+        <li class="route destination"><span class="spanUnderline">Jackson Park Express</span><br> has been rerouted</li>
+        <li class="route frequency">N/A</li>
+      </ul>
+      <ul class="service 4">
+        <li class="route line">4</li>
+        <li class="route destination"><span class="spanUnderline">Cottage Grove</span> <br>is out of service</li>
+        <li class="route frequency">Resumes 12:10am</li>
+      </ul>
+      <ul class="service 20">
+        <li class="route line">20</li>
+        <li class="route destination"><span class="spanUnderline">Madison</span> <br>is out of service</li>
+        <li class="route frequency">Resumes 12:10am</li>
+      </ul>
+      <ul class="service 6x">
+        <li class="route line">157</li>
+        <li class="route destination"><span class="spanUnderline">Streeterville/Taylor</span> <br>is out of service</li>
+        <li class="route frequency">Resumes 6:00am</li>
+      </ul>
     </section>
+
+      <div class="tab"><img src="images/tabBar.png" width="100%"></div>
   </body>
 </html>
